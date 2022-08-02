@@ -26,11 +26,14 @@ const Home: NextPage = () => {
           <a href='https://github.com/abura1han/Newtron-extension' className='inline-block px-4 py-3 bg-[#0D1117] text-white font-bold rounded mt-6 mr-5'>Github</a>
           <a href='https://github.com/abura1han/Newtron-extension/releases/download/LTS/Newtron1.0.zip' className='inline-block px-4 py-3 bg-blue-600 text-white font-bold rounded mt-6'>Download</a>
         </div>
-        <div className='mt-10'>
-          <img src={'./screenshot1.png'} alt='newtron' className='block mx-auto max-w-[800px] rounded' />
+        <div className='my-10 max-w-[800px]'>
+          <video src="./tutorial.mkv" controls autoPlay className='rounded-xl shadow-lg'></video>
         </div>
         <div className='mt-10'>
-          <img src={'./screenshot1.png'} alt='newtron' className='block mx-auto max-w-[800px] rounded' />
+          <img src={'./screenshot1.png'} alt='newtron' className='block mx-auto max-w-[800px] rounded-xl shadow-xl' />
+        </div>
+        <div className='mt-10'>
+          <img src={'./screenshot2.png'} alt='newtron' className='block mx-auto max-w-[800px] rounded-xl shadow-xl' />
         </div>
 
         
